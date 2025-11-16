@@ -1,7 +1,6 @@
 import { IconType } from 'react-icons'
 import {
   FaLinkedin,
-  FaGithub,
 } from 'react-icons/fa'
 
 type SocialMedia = {
@@ -13,7 +12,7 @@ type SocialMedia = {
 export const SocialMedias: SocialMedia[] = [
   {
     label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/marclawingco/',
+    href: 'https://www.linkedin.com/in/anzalna-ansari-6990b7329',
     icon: FaLinkedin,
   },
 ]
