@@ -16,9 +16,11 @@ import Avatar from 'components/Avatar'
 import About from 'components/Sections/About'
 import Experience from 'components/Sections/Experience'
 import FeaturedWorks from 'components/Sections/FeaturedWorks'
+import Acheivements from 'components/Sections/Achievements'
 import ScrollMore from 'components/Misc/ScrollMore'
 import { Article } from 'types/article'
 // These are on bottom sections so no need to render it instantly
+const Achievements = dynamic(() => import('components/Sections/Achievements'))
 const GetInTouch = dynamic(() => import('components/Sections/GetInTouch'))
 
 const Portfolio = (): JSX.Element => {
@@ -118,6 +120,18 @@ const Portfolio = (): JSX.Element => {
                 flexDirection={'row'}
               >
                 <FeaturedWorks />
+              </Box>
+            </FadeInLayout>
+              <FadeInLayout>
+              <Box
+                id="achievements"
+                className="contentRow"
+                paddingTop={{ base: 0, lg: 20, xl: 20 }}
+                paddingBottom={{ base: 12, lg: 10 }}
+                paddingX={0}
+                flexDirection={'row'}
+              >
+                <Achievements />
               </Box>
             </FadeInLayout>
             <FadeInLayout>

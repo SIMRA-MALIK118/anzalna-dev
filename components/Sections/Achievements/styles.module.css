@@ -1,0 +1,8 @@
+/* Add any custom styles here if needed */
+.achievementItem {
+  transition: all 0.3s ease;
+}
+
+.achievementItem:hover {
+  transform: translateX(10px);
+}
