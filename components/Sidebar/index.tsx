@@ -31,14 +31,6 @@ const Sidebar = () => {
   const MotionButton = motion(Button)
   const MotionBox = motion(Box)
 
-  const handleDownloadCV = () => {
-    // CV download ka logic yahan add karein
-    const link = document.createElement('a')
-    link.href = '/cv/anzalna-ansari-cv.pdf' // Apni CV file ka path daalein
-    link.download = 'Anzalna_Ansari_CV.pdf'
-    link.click()
-  }
-
   return (
     <MotionBox
       initial="initial"
@@ -109,7 +101,16 @@ const Sidebar = () => {
             className={styles.marginTopSmall}
             variants={fadeInUp}
           >
-            Full-Stack MERN Developer | WordPress Specialist | UI/UX Designer
+            Full-Stack Developer | WordPress Specialist
+          </MotionHeading>
+          <MotionHeading
+            as="h3"
+            size="md"
+            variant="emphasis"
+            className={styles.marginTopSmall}
+            variants={fadeInUp}
+          >
+            UI UX Designer
           </MotionHeading>
 
           <MotionText
@@ -153,6 +154,9 @@ const Sidebar = () => {
             </MotionButton>
 
             <MotionButton
+              as={'a'}
+              href={'/Anzalna_Ansari_CV.pdf'}
+              download={'Anzalna_Ansari_CV.pdf'}
               size="lg"
               variant="solid"
               borderRadius="0"
@@ -160,7 +164,6 @@ const Sidebar = () => {
               fontSize="sm"
               width="120px"
               colorScheme="teal"
-              onClick={handleDownloadCV}
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
             >

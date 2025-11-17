@@ -14,15 +14,13 @@ import {
 } from '@chakra-ui/react'
 import {
   SiWordpress,
-  SiElementor,
+  SiTailwindcss,
   SiJavascript,
   SiTypescript,
   SiMongodb,
   SiFirebase,
-  SiExpress,
-  SiReact,
-  SiNextdotjs,
-  SiNodedotjs,
+  SiFramer,
+  SiNpm,
   SiFigma,
   SiAdobexd,
 } from 'react-icons/si'
@@ -77,15 +75,15 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
             <Text color={emphasis} fontWeight="bold">WordPress Development</Text>
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
-            <ListIcon as={SiElementor} color={emphasis} fontSize="2em" />
+            <ListIcon as={SiTailwindcss} color={emphasis} fontSize="2em" />
             <Text color={emphasis} fontWeight="bold">Elementor Pro</Text>
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
-            <ListIcon as={SiReact} color={emphasis} fontSize="2em" />
+            <ListIcon as={SiNpm} color={emphasis} fontSize="2em" />
             <Text color={emphasis} fontWeight="bold">React.js</Text>
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
-            <ListIcon as={SiNextdotjs} color={emphasis} fontSize="2em" />
+            <ListIcon as={SiNpm} color={emphasis} fontSize="2em" />
             <Text color={emphasis} fontWeight="bold">Next.js</Text>
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
@@ -103,11 +101,10 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
             <Text color={emphasis} fontWeight="bold">TypeScript</Text>
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
-            <ListIcon as={SiNodedotjs} color={emphasis} fontSize="2em" />
             <Text color={emphasis} fontWeight="bold">Node.js</Text>
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
-            <ListIcon as={SiExpress} color={emphasis} fontSize="2em" />
+            <ListIcon as={SiFramer} color={emphasis} fontSize="2em" />
             <Text color={emphasis} fontWeight="bold">Express.js</Text>
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">

@@ -7,9 +7,7 @@ import {
   SiNextDotJs,
   SiMongodb,
   SiFirebase,
-  SiExpress,
   SiWordpress,
-  SiElementor,
   SiFigma,
   SiAdobexd,
   SiAdobephotoshop,
@@ -59,7 +57,7 @@ export const Skills: {
     },
     {
       name: 'Express.js',
-      icon: SiExpress,
+      icon: SiJavascript,
     },
   ],
   database: [
@@ -77,10 +75,10 @@ export const Skills: {
       name: 'WordPress Development',
       icon: SiWordpress,
     },
-    {
-      name: 'Elementor Pro',
-      icon: SiElementor,
-    },
+      {
+        name: 'Elementor Pro',
+        icon: BsQuestionSquare,
+      },
     {
       name: 'Figma - UI/UX',
       icon: SiFigma,
