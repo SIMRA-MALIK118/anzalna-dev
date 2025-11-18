@@ -10,13 +10,13 @@ import { BiTrophy } from 'react-icons/bi'
 
 const AchievementsTab = () => {
   const emphasis = useColorModeValue('teal.500', 'cyan.200')
-  
+
   const achievements = [
-    "Completed 50+ successful projects on Upwork and Fiverr",
-    "Maintained 100% client satisfaction rate",
-    "Built responsive websites for international clients",
-    "Specialized in MERN Stack and WordPress development",
-    "Created user-friendly UI/UX designs for various applications"
+    'Completed 50+ successful projects on Upwork and Fiverr',
+    'Maintained 100% client satisfaction rate',
+    'Built responsive websites for international clients',
+    'Specialized in MERN Stack and WordPress development',
+    'Created user-friendly UI/UX designs for various applications',
   ]
 
   return (

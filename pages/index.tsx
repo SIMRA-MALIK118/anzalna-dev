@@ -16,9 +16,8 @@ import Avatar from 'components/Avatar'
 import About from 'components/Sections/About'
 import Experience from 'components/Sections/Experience'
 import FeaturedWorks from 'components/Sections/FeaturedWorks'
-import Acheivements from 'components/Sections/Achievements'
 import ScrollMore from 'components/Misc/ScrollMore'
-import { Article } from 'types/article'
+// Achievements component is dynamically loaded below; no static import needed
 // These are on bottom sections so no need to render it instantly
 const Achievements = dynamic(() => import('components/Sections/Achievements'))
 const GetInTouch = dynamic(() => import('components/Sections/GetInTouch'))
@@ -122,7 +121,7 @@ const Portfolio = (): JSX.Element => {
                 <FeaturedWorks />
               </Box>
             </FadeInLayout>
-              <FadeInLayout>
+            <FadeInLayout>
               <Box
                 id="achievements"
                 className="contentRow"

@@ -17,10 +17,10 @@ const Achievements = () => (
       My Achievements.
     </Heading>
     <Text variant="description">
-      Here are some of my notable achievements, certifications, and accomplishments 
-      in my web development journey.
+      Here are some of my notable achievements, certifications, and
+      accomplishments in my web development journey.
     </Text>
-    
+
     <AchievementsTab />
   </Stack>
 )

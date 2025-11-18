@@ -31,8 +31,8 @@ const FeaturedWorksSection = () => {
         Some of my works.
       </Heading>
       <Text variant="description">
-        Check out my portfolio featuring web applications,
-         WordPress projects, and UI/UX case studies.
+        Check out my portfolio featuring web applications, WordPress projects,
+        and UI/UX case studies.
       </Text>
 
       <MotionGrid

@@ -32,13 +32,16 @@ export const Experiences: {
     },
     roles: [
       <>
-        Working as UI/UX Designer, creating user-centered designs for web applications.
+        Working as UI/UX Designer, creating user-centered designs for web
+        applications.
       </>,
       <>
-        Designing responsive and intuitive user interfaces using Figma and Adobe XD.
+        Designing responsive and intuitive user interfaces using Figma and Adobe
+        XD.
       </>,
       <>
-        Collaborating with development teams to implement designs and ensure user experience quality.
+        Collaborating with development teams to implement designs and ensure
+        user experience quality.
       </>,
     ],
   },
@@ -55,13 +58,16 @@ export const Experiences: {
     },
     roles: [
       <>
-        Working as Full Stack Developer and UI/UX Designer for various international clients.
+        Working as Full Stack Developer and UI/UX Designer for various
+        international clients.
       </>,
       <>
-        Providing WordPress development, MERN stack solutions, and UI/UX design services.
+        Providing WordPress development, MERN stack solutions, and UI/UX design
+        services.
       </>,
       <>
-        Creating responsive designs and developing complete web solutions from concept to deployment.
+        Creating responsive designs and developing complete web solutions from
+        concept to deployment.
       </>,
     ],
   },
@@ -78,13 +84,16 @@ export const Experiences: {
     },
     roles: [
       <>
-        Worked as WordPress Developer, specializing in WordPress website development and customization.
+        Worked as WordPress Developer, specializing in WordPress website
+        development and customization.
       </>,
       <>
-        Developed custom WordPress themes and plugins according to client requirements.
+        Developed custom WordPress themes and plugins according to client
+        requirements.
       </>,
       <>
-        Created responsive WordPress websites with optimized performance and user experience.
+        Created responsive WordPress websites with optimized performance and
+        user experience.
       </>,
     ],
   },

@@ -75,10 +75,10 @@ export const Skills: {
       name: 'WordPress Development',
       icon: SiWordpress,
     },
-      {
-        name: 'Elementor Pro',
-        icon: BsQuestionSquare,
-      },
+    {
+      name: 'Elementor Pro',
+      icon: BsQuestionSquare,
+    },
     {
       name: 'Figma - UI/UX',
       icon: SiFigma,

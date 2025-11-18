@@ -1,7 +1,5 @@
 import { IconType } from 'react-icons'
-import {
-  FaLinkedin,
-} from 'react-icons/fa'
+import { FaLinkedin } from 'react-icons/fa'
 
 type SocialMedia = {
   label: string

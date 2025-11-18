@@ -2,7 +2,11 @@ import { memo } from 'react'
 import { Heading, Text, Stack, Link, Icon, Box } from '@chakra-ui/react'
 import { motion, Variants } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import { RiHeartPulseFill, RiCopyleftLine, RiLinkedinFill } from 'react-icons/ri'
+import {
+  RiHeartPulseFill,
+  RiCopyleftLine,
+  RiLinkedinFill,
+} from 'react-icons/ri'
 
 const rimuruVariant: Variants = {
   shake: {
@@ -40,7 +44,7 @@ const GetInTouch = () => {
           fontVariantCaps: 'small-caps',
         }}
       >
-        Let's Connect!{' '}
+        Let&apos;s Connect!{' '}
         <Text as="span" fontSize="2xl" variant="emphasis">
           <motion.div
             style={{ display: 'inline-block' }}
@@ -53,10 +57,12 @@ const GetInTouch = () => {
         </Text>
       </Heading>
       <Text variant="description">
-        I'm always excited to connect with fellow developers, designers, and potential collaborators. 
-        Whether you have a project in mind, want to discuss web development, or just want to say hello, 
-        feel free to reach out. I'm open to new opportunities and creative partnerships.
-        <br /><br />
+        I&apos;m always excited to connect with fellow developers, designers,
+        and potential collaborators. Whether you have a project in mind, want to
+        discuss web development, or just want to say hello, feel free to reach
+        out. I&apos;m open to new opportunities and creative partnerships.
+        <br />
+        <br />
         You can message me on any of my social media platforms or send me an{' '}
         <Link
           href="mailto:anzalnaansari55@gmail.com"
@@ -65,7 +71,7 @@ const GetInTouch = () => {
         >
           email
         </Link>
-        . I'll do my best to get back to you as soon as possible!
+        . I&apos;ll do my best to get back to you as soon as possible!
       </Text>
 
       <Box

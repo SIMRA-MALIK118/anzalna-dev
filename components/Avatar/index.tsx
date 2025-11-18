@@ -32,7 +32,7 @@ const Avatar = () => {
     '0 0 20px rgba(66, 153, 225, 0.5)',
     '0 0 20px rgba(100, 150, 255, 0.6)'
   )
-  
+
   useEffect(() => {
     // Some nice preloading and caching
     const images = [AvatarImages.DarkMode, AvatarImages.LightMode]
@@ -69,7 +69,12 @@ const Avatar = () => {
           filter="brightness(1.05) contrast(1.1)"
           fallback={<SkeletonCircle height="100%" width="100%" />}
         />
-        <Text textAlign="center" fontSize="smaller" variant="description" marginTop="10px" >
+        <Text
+          textAlign="center"
+          fontSize="smaller"
+          variant="description"
+          marginTop="10px"
+        >
           Art by{' '}
           <Link
             href="https://www.linkedin.com/in/anzalna-ansari-6990b7329"

@@ -17,8 +17,6 @@ import {
   SiTailwindcss,
   SiJavascript,
   SiTypescript,
-  SiMongodb,
-  SiFirebase,
   SiFramer,
   SiNpm,
   SiFigma,
@@ -63,7 +61,15 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
             <b>UI/UX Design</b>
           </Text>
         </Tooltip>{' '}
-        , <Text as="span" variant="emphasis" color={emphasis}><b>WordPress</b></Text>, and <Text as="span" variant="emphasis" color={emphasis}><b>MERN Stack</b></Text>, delivering complete digital solutions!
+        ,{' '}
+        <Text as="span" variant="emphasis" color={emphasis}>
+          <b>WordPress</b>
+        </Text>
+        , and{' '}
+        <Text as="span" variant="emphasis" color={emphasis}>
+          <b>MERN Stack</b>
+        </Text>
+        , delivering complete digital solutions!
         <br /> <br />
         Here are my primary technologies and tools:
       </Text>
@@ -72,44 +78,64 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
         <List spacing={3}>
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={SiWordpress} color={emphasis} fontSize="2em" />
-            <Text color={emphasis} fontWeight="bold">WordPress Development</Text>
+            <Text color={emphasis} fontWeight="bold">
+              WordPress Development
+            </Text>
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={SiTailwindcss} color={emphasis} fontSize="2em" />
-            <Text color={emphasis} fontWeight="bold">Elementor Pro</Text>
+            <Text color={emphasis} fontWeight="bold">
+              Elementor Pro
+            </Text>
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={SiNpm} color={emphasis} fontSize="2em" />
-            <Text color={emphasis} fontWeight="bold">React.js</Text>
+            <Text color={emphasis} fontWeight="bold">
+              React.js
+            </Text>
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={SiNpm} color={emphasis} fontSize="2em" />
-            <Text color={emphasis} fontWeight="bold">Next.js</Text>
+            <Text color={emphasis} fontWeight="bold">
+              Next.js
+            </Text>
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={SiFigma} color={emphasis} fontSize="2em" />
-            <Text color={emphasis} fontWeight="bold">Figma - UI/UX</Text>
+            <Text color={emphasis} fontWeight="bold">
+              Figma - UI/UX
+            </Text>
           </ListItem>
         </List>
         <List spacing={3}>
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={SiJavascript} color={emphasis} fontSize="2em" />
-            <Text color={emphasis} fontWeight="bold">JavaScript</Text>
+            <Text color={emphasis} fontWeight="bold">
+              JavaScript
+            </Text>
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={SiTypescript} color={emphasis} fontSize="2em" />
-            <Text color={emphasis} fontWeight="bold">TypeScript</Text>
+            <Text color={emphasis} fontWeight="bold">
+              TypeScript
+            </Text>
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
-            <Text color={emphasis} fontWeight="bold">Node.js</Text>
+            <Text color={emphasis} fontWeight="bold">
+              Node.js
+            </Text>
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={SiFramer} color={emphasis} fontSize="2em" />
-            <Text color={emphasis} fontWeight="bold">Express.js</Text>
+            <Text color={emphasis} fontWeight="bold">
+              Express.js
+            </Text>
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={SiAdobexd} color={emphasis} fontSize="2em" />
-            <Text color={emphasis} fontWeight="bold">Adobe XD</Text>
+            <Text color={emphasis} fontWeight="bold">
+              Adobe XD
+            </Text>
           </ListItem>
         </List>
         <Box>

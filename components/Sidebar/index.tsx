@@ -62,7 +62,7 @@ const Sidebar = () => {
             variant="accent"
             fontWeight="light"
           >
-            Ohh you found me?. Hey there! I'm
+            Ohh you found me?. Hey there! I&apos;m
           </MotionText>
           <MotionHeading
             as="h1"
@@ -125,14 +125,15 @@ const Sidebar = () => {
               {' '}
               Thank you!
             </Text>
-            <br />I specialize in MERN Stack development, WordPress customization, and UI/UX design,
-             creating fast, responsive, and user-friendly web experiences.
+            <br />I specialize in MERN Stack development, WordPress
+            customization, and UI/UX design, creating fast, responsive, and
+            user-friendly web experiences.
           </MotionText>
 
           {/* Buttons Stack */}
-          <MotionStack 
-            direction={{ base: 'column', sm: 'row' }} 
-            spacing={4} 
+          <MotionStack
+            direction={{ base: 'column', sm: 'row' }}
+            spacing={4}
             variants={simpleOpacity}
           >
             <MotionButton
