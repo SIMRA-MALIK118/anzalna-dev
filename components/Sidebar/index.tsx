@@ -25,6 +25,7 @@ const Sidebar = () => {
   const { colorMode } = useColorMode()
   const display = useBreakpointValue({ base: 'none', lg: 'block' })
   const surNameSize = useBreakpointValue({ base: '3xl', md: '4xl' })
+
   const MotionHeading = motion(Heading)
   const MotionText = motion(Text)
   const MotionStack = motion(Stack)
@@ -47,6 +48,7 @@ const Sidebar = () => {
         style={{ display: display }}
         animate={colorMode === 'dark' ? 'animate' : 'lightMode'}
       ></motion.div>
+
       <Container
         padding={0}
         margin={0}
@@ -63,6 +65,7 @@ const Sidebar = () => {
           >
             Ohh you found me?. Hey there! I&apos;m
           </MotionText>
+
           <MotionHeading
             as="h1"
             size="2xl"
@@ -72,6 +75,7 @@ const Sidebar = () => {
           >
             Anzalna
           </MotionHeading>
+
           <MotionHeading
             as="h2"
             size={surNameSize}
@@ -84,6 +88,7 @@ const Sidebar = () => {
           >
             Ansari.
           </MotionHeading>
+
           <MotionText
             colorScheme="gray"
             fontSize="smaller"
@@ -102,6 +107,7 @@ const Sidebar = () => {
           >
             Full-Stack Developer | WordPress Specialist
           </MotionHeading>
+
           <MotionHeading
             as="h3"
             size="md"
@@ -124,12 +130,13 @@ const Sidebar = () => {
               {' '}
               Thank you!
             </Text>
-            <br />I specialize in MERN Stack development, WordPress
-            customization, and UI/UX design, creating fast, responsive, and
-            user-friendly web experiences.
+            <br />
+            I specialize in MERN Stack development, WordPress customization,
+            and UI/UX design, creating fast, responsive, and user-friendly web
+            experiences.
           </MotionText>
 
-          {/* Buttons Stack */}
+          {/* Buttons */}
           <MotionStack
             direction={{ base: 'column', sm: 'row' }}
             spacing={4}
@@ -146,7 +153,7 @@ const Sidebar = () => {
               variants={simpleOpacity}
               onClick={() =>
               (window.location.href =
-                "https://mail.google.com/mail/?view=cm&fs=1&to=anzalnaansari55@gmail.com")
+                'https://mail.google.com/mail/?view=cm&fs=1&to=anzalnaansari55@gmail.com')
               }
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
@@ -154,11 +161,10 @@ const Sidebar = () => {
               Get in touch!
             </MotionButton>
 
-
             <MotionButton
-              as={'a'}
-              href={'/Anzalna_Ansari_CV.pdf'}
-              download={'Anzalna_Ansari_CV.pdf'}
+              as="a"
+              href="/Anzalna_Ansari_CV.pdf"
+              download="Anzalna_Ansari_CV.pdf"
               size="lg"
               variant="solid"
               borderRadius="0"
@@ -173,7 +179,7 @@ const Sidebar = () => {
             </MotionButton>
           </MotionStack>
 
-          <MotionBox d="flex" variants={simpleOpacity}>
+          <MotionBox display="flex" variants={simpleOpacity}>
             {SocialMedias.map((socMedia) => (
               <Link
                 variant="description"
