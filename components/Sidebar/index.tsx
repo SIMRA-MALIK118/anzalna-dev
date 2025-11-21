@@ -41,9 +41,8 @@ const Sidebar = () => {
     >
       <motion.div
         id="sidebarCircle"
-        className={`${styles.sidebar} ${
-          colorMode === 'light' ? styles.dark : ''
-        }`}
+        className={`${styles.sidebar} ${colorMode === 'light' ? styles.dark : ''
+          }`}
         variants={scaleUp}
         style={{ display: display }}
         animate={colorMode === 'dark' ? 'animate' : 'lightMode'}
@@ -145,14 +144,16 @@ const Sidebar = () => {
               fontSize="sm"
               width="120px"
               variants={simpleOpacity}
-              as={'a'}
-              href="mailto:anzalnaansari55@gmail.com"
-              target="_blank"
+              onClick={() =>
+              (window.location.href =
+                "https://mail.google.com/mail/?view=cm&fs=1&to=anzalnaansari55@gmail.com")
+              }
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
             >
               Get in touch!
             </MotionButton>
+
 
             <MotionButton
               as={'a'}
