@@ -42,8 +42,9 @@ const Sidebar = () => {
     >
       <motion.div
         id="sidebarCircle"
-        className={`${styles.sidebar} ${colorMode === 'light' ? styles.dark : ''
-          }`}
+        className={`${styles.sidebar} ${
+          colorMode === 'light' ? styles.dark : ''
+        }`}
         variants={scaleUp}
         style={{ display: display }}
         animate={colorMode === 'dark' ? 'animate' : 'lightMode'}
@@ -130,10 +131,9 @@ const Sidebar = () => {
               {' '}
               Thank you!
             </Text>
-            <br />
-            I specialize in MERN Stack development, WordPress customization,
-            and UI/UX design, creating fast, responsive, and user-friendly web
-            experiences.
+            <br />I specialize in MERN Stack development, WordPress
+            customization, and UI/UX design, creating fast, responsive, and
+            user-friendly web experiences.
           </MotionText>
 
           {/* Buttons */}
@@ -152,8 +152,8 @@ const Sidebar = () => {
               width="120px"
               variants={simpleOpacity}
               onClick={() =>
-              (window.location.href =
-                'https://mail.google.com/mail/?view=cm&fs=1&to=anzalnaansari55@gmail.com')
+                (window.location.href =
+                  'https://mail.google.com/mail/?view=cm&fs=1&to=anzalnaansari55@gmail.com')
               }
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
