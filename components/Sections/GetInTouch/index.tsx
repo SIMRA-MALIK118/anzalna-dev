@@ -66,8 +66,15 @@ const GetInTouch = () => {
         You can message me on any of my social media platforms or send me an{' '}
         <Link
           href="mailto:anzalnaansari55@gmail.com"
-          target="_blank"
-          rel="noreferrer"
+          onClick={(e) => {
+            if (typeof window !== 'undefined') {
+              e.preventDefault()
+              window.open(
+                'https://mail.google.com/mail/?view=cm&fs=1&to=anzalnaansari55@gmail.com',
+                '_blank'
+              )
+            }
+          }}
         >
           email
         </Link>
@@ -85,7 +92,16 @@ const GetInTouch = () => {
           variant="description"
           textDecoration="none"
           rel="noreferrer"
-          href="https://www.linkedin.com/in/anzalna-ansari-6990b7329"
+          href="mailto:anzalnaansari55@gmail.com"
+          onClick={(e) => {
+            if (typeof window !== 'undefined') {
+              e.preventDefault()
+              window.open(
+                'https://mail.google.com/mail/?view=cm&fs=1&to=anzalnaansari55@gmail.com',
+                '_blank'
+              )
+            }
+          }}
           target="_blank"
           _focus={{ boxShadow: 'none' }}
         >
