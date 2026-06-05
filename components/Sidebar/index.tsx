@@ -55,7 +55,9 @@ const Sidebar = () => {
         margin={0}
         height={{ xl: '100vh' }}
         display={{ xl: 'flex' }}
-        alignItems={{ xl: 'center' }}
+        flexDirection={{ xl: 'column' }}
+        justifyContent={{ xl: 'flex-start' }}
+        paddingTop={{ xl: '20' }}
       >
         <MotionStack variants={stagger} spacing={6} w="100">
           <MotionText
@@ -138,9 +140,10 @@ const Sidebar = () => {
 
           {/* Buttons */}
           <MotionStack
-            direction={{ base: 'column', sm: 'row' }}
+            direction={{ base: 'row' }}
             spacing={4}
             variants={simpleOpacity}
+            paddingBottom={{ base: '6', xl: '8' }}
           >
             <MotionButton
               size="lg"
@@ -178,23 +181,6 @@ const Sidebar = () => {
               Hire Me!
             </MotionButton>
           </MotionStack>
-
-          <MotionBox display="flex" variants={simpleOpacity}>
-            {SocialMedias.map((socMedia) => (
-              <Link
-                variant="description"
-                key={socMedia.label}
-                aria-label={socMedia.label}
-                rel="noreferrer"
-                width={8}
-                href={socMedia.href}
-                target="_blank"
-                _focus={{ boxShadow: 'none' }}
-              >
-                <Icon w={6} h={6} as={socMedia.icon} color="currentColor" />
-              </Link>
-            ))}
-          </MotionBox>
         </MotionStack>
       </Container>
     </MotionBox>

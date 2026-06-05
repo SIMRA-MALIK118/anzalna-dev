@@ -21,7 +21,7 @@ const DetailSection = () => (
       then expanded my expertise through platforms like <b>Fiverr</b> and{' '}
       <b>Upwork</b>. Currently, I&apos;m working as a{' '}
       <b>MERN Stack Developer</b> at{' '}
-      <Link href="https://nexora.com" target="_blank" rel="noreferrer">
+      <Link href="https://nexora-official-web.netlify.app/" target="_blank" rel="noreferrer">
         Nexora Company
       </Link>
       , where I specialize in creating modern web applications.

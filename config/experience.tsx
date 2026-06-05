@@ -1,5 +1,3 @@
-import { Link } from '@chakra-ui/react'
-
 export type Company = 'Nexora' | 'Upwork' | 'GAOTek'
 
 export type CompanyDetail = {
@@ -23,7 +21,7 @@ export const Experiences: {
     name: 'Nexora',
     longName: 'Nexora Company',
     subDetail: 'Software Development Company',
-    url: 'https://nexora-agency.vercel.app/',
+    url: '',
     position: 'UI/UX Designer',
     duration: '2025',
     logo: {
@@ -49,7 +47,7 @@ export const Experiences: {
     name: 'Upwork',
     longName: 'Upwork Freelance Platform',
     subDetail: 'Freelance Developer & Designer',
-    url: 'https://upwork.com',
+    url: '',
     position: 'Full Stack Developer & UI/UX Designer',
     duration: '2025',
     logo: {

@@ -1,4 +1,5 @@
 import { memo } from 'react'
+import { SiNodedotjs } from 'react-icons/si'
 import {
   Heading,
   Text,
@@ -53,7 +54,6 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
         I`ve been coding professionally for {professionalYears} years now and
         currently working as a <b>Mern Stack Developer</b> that specializes in{' '}
         <Tooltip
-          label="Creating beautiful and functional user interfaces"
           aria-label="UI/UX Design"
           hasArrow
         >
@@ -121,10 +121,11 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
             </Text>
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
-            <Text color={emphasis} fontWeight="bold">
-              Node.js
-            </Text>
-          </ListItem>
+  <ListIcon as={SiNodedotjs} color={emphasis} fontSize="2em" />
+  <Text color={emphasis} fontWeight="bold">
+    Node.js
+  </Text>
+</ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={SiFramer} color={emphasis} fontSize="2em" />
             <Text color={emphasis} fontWeight="bold">
