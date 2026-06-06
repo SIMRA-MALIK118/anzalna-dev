@@ -1,5 +1,5 @@
 import { memo } from 'react'
-import { SiNodedotjs } from 'react-icons/si'
+import { SiNodeDotJs } from 'react-icons/si'
 import {
   Heading,
   Text,
@@ -121,7 +121,7 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
             </Text>
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
-  <ListIcon as={SiNodedotjs} color={emphasis} fontSize="2em" />
+  <ListIcon as={SiNodeDotJs} color={emphasis} fontSize="2em" />
   <Text color={emphasis} fontWeight="bold">
     Node.js
   </Text>
