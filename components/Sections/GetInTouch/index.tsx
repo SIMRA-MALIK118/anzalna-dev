@@ -6,6 +6,7 @@ import {
   RiHeartPulseFill,
   RiCopyleftLine,
   RiLinkedinFill,
+  RiFacebookFill,
 } from 'react-icons/ri'
 
 const rimuruVariant: Variants = {
@@ -81,11 +82,36 @@ const GetInTouch = () => {
         . I&apos;ll do my best to get back to you as soon as possible!
       </Text>
 
+      <Stack
+        direction="row"
+        spacing={5}
+        justify="center"
+        paddingTop={{ base: 10, lg: 20, xl: 20 }}
+      >
+        <Link
+          href="https://www.linkedin.com/in/anzalna-ansari-6990b7329"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="LinkedIn"
+          _focus={{ boxShadow: 'none' }}
+        >
+          <Icon as={RiLinkedinFill} h={6} w={6} />
+        </Link>
+        <Link
+          href="https://www.facebook.com/profile.php?id=61590325873542"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Facebook"
+          _focus={{ boxShadow: 'none' }}
+        >
+          <Icon as={RiFacebookFill} h={6} w={6} />
+        </Link>
+      </Stack>
+
       <Box
         spacing={0.5}
         textAlign="center"
         fontFamily="monospace"
-        paddingTop={{ base: 10, lg: 20, xl: 20 }}
         paddingBottom={{ base: 5, lg: 18 }}
       >
         <Link
@@ -106,7 +132,6 @@ const GetInTouch = () => {
           _focus={{ boxShadow: 'none' }}
         >
           <Text as="span">
-            <Icon as={RiLinkedinFill} h={6} w={6} /> <br />
             Designed and Built with <Icon as={RiHeartPulseFill} /> <br />
             Anzalna Ansari <Icon as={RiCopyleftLine} /> 2025
           </Text>
