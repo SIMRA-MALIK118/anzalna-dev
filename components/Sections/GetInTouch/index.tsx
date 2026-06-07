@@ -7,6 +7,7 @@ import {
   RiCopyleftLine,
   RiLinkedinFill,
   RiFacebookFill,
+  RiGithubFill,
 } from 'react-icons/ri'
 
 const rimuruVariant: Variants = {
@@ -106,6 +107,15 @@ const GetInTouch = () => {
         >
           <Icon as={RiFacebookFill} h={6} w={6} />
         </Link>
+        <Link
+          href="https://github.com/Anzalna-ANsari"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="GitHub"
+          _focus={{ boxShadow: 'none' }}
+        >
+          <Icon as={RiGithubFill} h={6} w={6} />
+        </Link>
       </Stack>
 
       <Box
@@ -133,7 +143,7 @@ const GetInTouch = () => {
         >
           <Text as="span">
             Designed and Built with <Icon as={RiHeartPulseFill} /> <br />
-            Anzalna Ansari <Icon as={RiCopyleftLine} /> 2025
+            Anzalna Ansari <Icon as={RiCopyleftLine} /> 2026
           </Text>
         </Link>
       </Box>
